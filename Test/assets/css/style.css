@@ -1,0 +1,274 @@
+/* Main Style */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Nav */
+
+nav {
+    z-index: 9999;
+}
+
+nav .uk-navbar-nav a {
+    color: #FFF;
+}
+
+.nav-button {
+    text-transform: none;
+    color: #FFF;
+}
+
+.geo__block {
+    align-items: center;
+    color: #FFF;
+}
+
+/* Header */
+
+.header {
+    background: url('../img/background.jpg') no-repeat top center / cover;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+.header h1 {
+    font-size: 60px;
+}
+
+.header p {
+    color: #FFF;
+    max-width: 1070px;
+    line-height: 28px;
+    margin-top: 31px;
+}
+
+.header__btn {
+    background-color: #FFF;
+    color: #262626 !important;
+    width: 280px;
+    padding: 13px 0;
+    display: block;
+    margin-top: 51px;
+    border: 1px solid #FFF;
+    transition: all .2s ease;
+}
+
+.header__btn:hover {
+    color: #FFF !important;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+.arrow__wrap {
+    color: #FFF;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.arrow img {
+    transition: all .3s ease;
+}
+
+.arrow:hover img{
+    transform: translateY(-15%);
+}
+
+/* Service */
+
+.title {
+    font-size: 49px;
+}
+
+.service {
+    padding: 112px 0 128px;
+}
+
+.service h4 {
+    max-width: 1030px;
+}
+
+
+.service__block-img {
+    width: 130px;
+    height: 130px;
+    border: 2px solid #989DB3;
+    border-radius: 50%;
+}
+
+.service__wrap {
+    margin-top: 63px;
+}
+
+.btn-service {
+    font-family: 'Roboto';
+    text-transform: none;
+    width: 248px;
+    height: 52px;
+    background: #355AF6;
+    display: block;
+    margin-top: 97px;
+}
+
+/* About */
+
+.about {
+    padding: 136px 0;
+    background: #355AF6;
+    color: #FFF;
+}
+
+.about h1 {
+    color: #FFF;
+    margin-bottom: 70px;
+}
+
+.about__wrap {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.about__form {
+    margin-top: 120px;
+}
+
+.form__btn {
+    display: block;
+    background: #FFF;
+    border: 0;
+    cursor: pointer;
+    width: 240px;
+    height: 52px;
+    font-size: 16px;
+    transition: all .2s linear;
+}
+
+.form__btn:hover {
+    border: 1px solid #FFF;
+    background: transparent;
+    color: #FFF !important;
+}
+
+form .uk-input {
+    color: #FFF;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #FFF;
+    margin-right: 32px;
+    padding: 14px 10px 14px 2px;
+    font-size: 18px;
+}
+
+form .uk-input:active,
+form .uk-input:focus{
+    color: #FFF;
+    background: transparent;
+}
+
+form .uk-input::placeholder { color: #FFF; }
+
+/* Review */
+
+.review {
+    padding: 86px 0 141px;
+}
+
+.review__text-wrap {
+    margin-top: 69px;
+}
+
+.review__text {
+    font-size: 18px;
+    color: #333;
+    opacity: 0.5;
+    padding: 55px 0;
+    line-height: 25px;
+    padding-right: 34px;
+}
+
+.review__text:last-child {
+    padding-right: 0;
+}
+.review__text.active {
+    opacity: 1;
+    position: relative;
+}
+
+.review__text.active:before,
+.review__text.active:after {
+    content: '';
+    width: 100%;
+    height: 22.85px;
+    position: absolute;
+    display: block;
+}
+
+.review__text.active:before {
+    top: 0;
+    background: url('../img/kov-top.svg') no-repeat top center;
+}
+
+.review__text.active:after {
+    bottom: 0;
+    background: url('../img/kov-bottom.svg') no-repeat bottom center;
+}
+
+.review__man-wrap {
+    margin-top: 79px;
+}
+
+.review__item {
+    margin: 0 72px;
+}
+
+.review__item img {
+    opacity: .5;
+}
+
+.review__item.active img {
+    opacity: 1;
+}
+
+.review__man-title {
+    margin-top: 72px;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.review__man-text {
+    color: #989DB3;
+}
+/* Offer */
+
+.offer {
+    padding: 48px 0 56px;
+}
+.offer__title {
+    color: #B0B0B0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.offer__text {
+    font-size: 12px;
+    color: #333;
+    line-height: 17px;
+    padding: 0;
+    margin: 0;
+    max-width: 511px;
+}
+
+/* Footer */
+
+.footer {
+    padding: 14px 0;
+    background: #333;
+    color: #FFF;
+}
+
+.offer__block .uk-nav:last-child {
+    margin-left: 123px;
+}
